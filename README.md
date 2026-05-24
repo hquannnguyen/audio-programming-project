@@ -354,6 +354,8 @@ g++ -std=c++11 main.cpp -o audio_system -lm
 ---
 
 ## � Hướng Dẫn Chạy Dự Án
+// Linh: g++ -std=c++17 main.cpp -Ilib -Llib -lraylib -lopengl32 -lgdi32 -lwinmm -o audio_demo.exe
+          ./audio_demo.exe
 
 ### **Phương pháp 1: Dùng lệnh g++ trực tiếp**
 
