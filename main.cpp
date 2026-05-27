@@ -192,7 +192,7 @@ int main() {
 
         bool oldNorm = doNormalize; GuiCheckBox((Rectangle){ 30, 310, 20, 20 }, "Normalize (Chuẩn hoá)", &doNormalize);
         bool oldFade = doFadeInOut; GuiCheckBox((Rectangle){ 30, 340, 20, 20 }, "Fade In / Fade Out (2000 samples)", &doFadeInOut);
-        bool oldMix  = doMixDrum;   GuiCheckBox((Rectangle){ 30, 370, 20, 20 }, "Mix with Drum Noise (Trộn tín hiệu)", &doMixDrum);
+        bool oldMix  = doMixDrum;   GuiCheckBox((Rectangle){ 30, 370, 20, 20 }, "Mix with White Noise (Trộn tín hiệu)", &doMixDrum);
         if (doNormalize != oldNorm || doFadeInOut != oldFade || doMixDrum != oldMix) signalChanged = true;
 
         // =========================================================
