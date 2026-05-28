@@ -1,0 +1,5 @@
+audio_demo
+*.o
+*.obj
+output_demo.wav
+output.wav
